@@ -19,9 +19,9 @@
 #include "tm4c123gh6pm.h"
 
 // ***** 2. Global Declarations Section *****
-#define SENSOR		(*((volatile uint32_t*)0x4002401c))
-#define LIGHT_PB	(*((volatile uint32_t*)0x400050fc))
-#define LIGHT_PF	(*((volatile uint32_t*)0x40025028))
+#define SENSOR          (*((volatile uint32_t*)0x4002401c))
+#define LIGHT_PB        (*((volatile uint32_t*)0x400050fc))
+#define LIGHT_PF        (*((volatile uint32_t*)0x40025028))
 	
 #define goW		&FSM[0]
 #define waitW 		&FSM[1]
