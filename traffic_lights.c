@@ -23,11 +23,11 @@
 #define LIGHT_PB	(*((volatile uint32_t*)0x400050fc))
 #define LIGHT_PF	(*((volatile uint32_t*)0x40025028))
 	
-#define goW				&FSM[0]
+#define goW		&FSM[0]
 #define waitW 		&FSM[1]
-#define goS				&FSM[2]
-#define waitS			&FSM[3]
-#define walk			&FSM[4]
+#define goS		&FSM[2]
+#define waitS		&FSM[3]
+#define walk		&FSM[4]
 #define blinkR1		&FSM[5]
 #define blinkR2		&FSM[6]
 #define blinkR3		&FSM[7]
